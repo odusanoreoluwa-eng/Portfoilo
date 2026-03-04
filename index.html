@@ -167,7 +167,12 @@
             </div>
             <div class="project-btns">
               <a href="#" class="btn">Live Demo</a>
-              <a href="#" class="btn" target="_blank">View Code</a>
+              <a
+                href="https://github.com/odusanoreoluwa-eng/PROJECT.git"
+                target="_blank"
+                class="btn"
+                >View Code</a
+              >
             </div>
           </div>
         </div>
@@ -304,7 +309,12 @@
             </div>
             <div class="project-btns">
               <a href="#" class="btn">Live Demo</a>
-              <a href="#" class="btn" target="_blank">View Code</a>
+              <a
+                href="https://github.com/odusanoreoluwa-eng/Calaulator-project.git"
+                class="btn"
+                target="_blank"
+                >View Code</a
+              >
             </div>
           </div>
         </div>
@@ -314,40 +324,44 @@
       <div class="side-Guide">
         <div class="guide-info">
           <h1>CONTACT ME</h1>
-          <img src="images/—Pngtree—envelope.png" alt="" />
+          <img src="images/—Pngtree—envelope.png" alt="Envelope Icon" />
         </div>
 
         <div class="Form">
-          <form action="">
+          <!-- Replace the action URL with your Formspree endpoint -->
+          <form action="https://formspree.io/f/mbdanqzz" method="POST">
             <div class="form-element">
-              <label for="senderName"></label>
+              <label for="name"></label>
               <input
                 type="text"
-                name="senderName"
-                id="senderName"
+                name="name"
+                id="name"
                 placeholder="Enter Your Name*"
+                required
               />
             </div>
             <div class="form-element">
-              <label for="senderEmail"></label>
+              <label for="email"></label>
               <input
                 type="email"
-                name="senderEmail"
-                id="senderEmail"
+                name="email"
+                id="email"
                 placeholder="Enter Your Email*"
+                required
               />
             </div>
             <div class="form-element-mes">
-              <label for="senderMessage"></label>
+              <label for="message"></label>
               <textarea
-                name="senderMessage"
-                id="senderMessage"
+                name="message"
+                id="message"
                 placeholder="Your Message*"
                 rows="5"
+                required
               ></textarea>
             </div>
 
-            <input type="submit" name="button" class="btn" />
+            <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
       </div>
